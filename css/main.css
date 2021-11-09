@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 86, ../sass/main.scss */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 107, ../sass/main.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* line 111, ../sass/main.scss */
+body {
+  line-height: 1;
+}
+
+/* line 116, ../sass/main.scss */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 121, ../sass/main.scss */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* line 128, ../sass/main.scss */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 133, ../sass/main.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 142, ../sass/main.scss */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  border-left: 40px solid darkgreen;
+  position: relative;
+}
+
+/* line 150, ../sass/main.scss */
+main {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+/* line 153, ../sass/main.scss */
+main * {
+  margin-top: 20px;
+}
+/* line 156, ../sass/main.scss */
+main h1 {
+  font-family: 'Vidaloka', serif;
+  font-size: 60px;
+}
+/* line 160, ../sass/main.scss */
+main h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  color: gray;
+}
+/* line 165, ../sass/main.scss */
+main section {
+  font-family: 'Lato', sans-serif;
+}
+/* line 167, ../sass/main.scss */
+main section a:not(:last-child) {
+  padding-right: 20px;
+}
