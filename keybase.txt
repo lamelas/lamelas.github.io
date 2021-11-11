@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/lamelas
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lamelas.org
+  * I am lamelas (https://keybase.io/lamelas) on keybase.
+  * I have a public key with fingerprint 8938 6D85 EFFC AA5D 24B3  5C27 5347 F2CF AFFC 1898
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "011161e86eaa1d2009d77b06733cdce8aa80b11c626f5c9dd68bd10ba0fa3241fca70a",
+      "fingerprint": "89386d85effcaa5d24b35c275347f2cfaffc1898",
+      "host": "keybase.io",
+      "key_id": "5347f2cfaffc1898",
+      "kid": "011161e86eaa1d2009d77b06733cdce8aa80b11c626f5c9dd68bd10ba0fa3241fca70a",
+      "uid": "0f78cf4df6a8bce6f84dd53b3fadba00",
+      "username": "lamelas"
+    },
+    "merkle_root": {
+      "ctime": 1636625860,
+      "hash_meta": "05785eaefd3e35c7a6bef3835368f7b776ddf258efdff32b114689db201d1de8",
+      "seqno": 21195079
+    },
+    "revoke": {
+      "sig_ids": [
+        "32f55ae0f885fca0870cd3e1b39df4fa83f408ed0af3d768cb515aaf7f1df21e0f"
+      ]
+    },
+    "service": {
+      "hostname": "lamelas.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1636625862,
+  "expire_in": 157680000,
+  "prev": "187c4e57a13bc41b68b2463c32d82a3429ee76d233ae352f679741d7270dd74f",
+  "seqno": 48,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMHAAnicrVO7axRBGN/4CgkISRMiVm4jSAjzntkjjZXYCXYGvczjm7sll9tzd+80
+xAj2KSwExTIgRERs/AuiiCJqI6ZIK1rFwlqI30ZFFEu3GXb29/p+s/P8+OFkcvri
+ua/vnnybvTf2ens4TOzG3ou11BVhNW2tpctwsEAvQFW3l/OQtlJCKVUUjAJraWCE
+ZEFrR5Tm3AcPxlpDHKVeMRWlz0JQxgVKnCXRciZo9FYTm86lMe93oByUeb9GWZNx
+o4KREBFgZWDCcemZllzoyHy0uE9NZpDYLaqGgeGcrWA+L3APX9oH8f6B/8+5hz/k
+ojY+ihCVNc6DikaEILnj0QbkkAZYQdm3K4DoHi49W6Xrc+kKlMs9aJdFUTfd+jpv
+EFRxpZg0iuB8tuq2V6C2jY3U2ImFGDhgH9oqB5EbLrkyUTutVQgReQiIkTMcQCiT
+BccIDTRAM34FV/tF2mKUZpLoDCOUMCqWoXGv8g7WVqWtxZSzKKUFEo2ROCsxmng0
+pY5nIYpoDY+CGAjERh60Mt5JKq2NOlJMQJGYXl5v3MpR7g/Em3P6c/75ouxgokFZ
+1IUvevihW9eDqtX0Uq8OGuQ1cO2fGm2X9wP+JMgYQVnlRR97QuTflbG5FK4P8hLa
+eYOQGI7g0/jACCWp0V6A1JZy5wV1eLBMKO45C4ZZLlgGgD0yzi12zKLSmRY0aKZJ
+CFrE3x0KgzltBzWxuL6thyWk69tXjiTTk8mxo4eay5NMTkz9ulILL5P97uzt6ftf
+xIlbYmthfOPzp82dt+e3lqaScn/n5oelzoOx5OnJu1fPfHx46cb7R6dnXk2M727v
+Lu6pzVNvZs4+3nt258J3z0Ioqg==
+=cZKG
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lamelas
+
+==================================================================
+
