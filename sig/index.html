@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>signature</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-425361-18', 'lamelas.org');
+      ga('send', 'pageview');
+
+  </script>
+  <script type="text/javascript">
+    function selectText(element) {
+        var doc = document;
+        var text = doc.getElementById(element);
+
+                if (doc.body.createTextRange) { // ms
+                    var range = doc.body.createTextRange();
+                    range.moveToElementText(text);
+                    range.select();
+                } else if (window.getSelection) { // moz, opera, webkit
+                    var selection = window.getSelection();
+                    var range = doc.createRange();
+                    range.selectNodeContents(text);
+                    selection.removeAllRanges();
+                    selection.addRange(range);
+                }
+            }
+            function replaceAll(find, replace, str) {
+              return str.replace(new RegExp(find, 'g'), replace);
+          }
+
+          /*var divTemplate = '<div id="signature" style="font-family: \'Calibri\', Helvetica, Arial, sans-serif; color: #000;font-size: 14px;"><h1 style="font-weight: bold;color: #c0392b;font-size: 16px;margin:0;line-height:normal;">%nameSurname%</h1><h1 style="font-style: italic;color: #000;margin:0 0 10px 0;font-size: 14px; font-weight:normal;line-height:normal;">%title%</h1><p style="line-height:normal;margin:0;padding:0;">%unit%</p><p style="line-height:normal;margin:0;padding:0;">%location%</p><p style="line-height:normal;margin:0;padding:0;">Email: <a href="mailto:%email%" style="color: #34495e; font-weight:bold;text-decoration: none;">%email%</a></p><p style="line-height:normal;margin:0;padding:0;">Telephone: <a href="tel:%telephone%" style="color: #34495e; font-weight:bold;text-decoration: none;">%telephone%</a></p><p style="line-height:normal;margin:0;padding:0;">Mobile: <a href="tel:%mobile%" style="color: #34495e; font-weight:bold;text-decoration: none;">%mobile%</a></p><p style="padding-bottom: 10px; line-height:normal;margin:0;">Skype: <a href="skype:%skype%?chat" style="color: #34495e; font-weight:bold;text-decoration: none;">%skype%</a></p><div><img src="signature.png" /></div><div><a href="https://logcluster.org" style="color: #34495e;text-decoration: none; font-size:12px;">logcluster.org |</a><a href="https://www.facebook.com/logcluster" style="color: #34495e;text-decoration: none; font-size:12px;"><img src="https://logcluster.org/sites/default/files/signature-facebook.png" style="vertical-align:middle;"> logcluster |</a><a href="https://twitter.com/logcluster" style="color: #34495e;text-decoration: none; font-size:12px;"><img src="https://logcluster.org/sites/default/files/signature-twitter.png" style="vertical-align:middle;"> @logcluster |</a><a href="https://instagram.com/logcluster" style="color: #34495e;text-decoration: none; font-size:12px;"><img src="https://logcluster.org/sites/default/files/signature-instagram.png" style="vertical-align:middle;"> @logcluster</a></div></div>';*/
+
+          // Versão 180329
+          /*var divTemplate = '<div id="signature" style="font-family: \'Calibri\', Helvetica, Arial, sans-serif; color: #000;font-size: 14px; width: 300px;"><h1 style="font-weight: normal;color: #c0392b;font-size: 16px;margin:0;line-height:normal;">%nameSurname%</h1><h1 style="font-style: italic;color: #000;margin:0 0 10px 0;font-size: 14px; font-weight:normal;line-height:normal;">%title%</h1><p>%unit%<br />%location%<br />Email: <a href="mailto:%email%" style="color: #34495e;font-weight:bold;text-decoration: none;">%email%</a><br />Telephone: <a href="tel:%telephone%" style="color: #34495e;font-weight:bold;text-decoration: none;">%telephone%</a><br />Mobile: <a href="tel:%mobile%" style="color: #34495e;font-weight:bold;text-decoration: none;">%mobile%</a><br />Skype: <a href="skype:%skype%?chat" style="color: #34495e;font-weight:bold;text-decoration: none;">%skype%</a><br />Website: <a href="https://logcluster.org" style="color: #34495e;font-weight:bold;text-decoration: none;">logcluster.org</a></p><div><a href="https://logcluster.org"><img style="height:90px;width:300px;" height="90" width="300" src="signature.png" /></a></div><div style="display: flex; align-items: center; justify-content: space-between; margin-top: 10px;"><a href="https://www.facebook.com/logcluster" style="color: #34495e;text-decoration: none; font-size:12px;"><img src="signature-facebook.png" style="vertical-align:middle;"></a><a href="https://twitter.com/logcluster" style="color: #34495e;text-decoration: none; font-size:12px;"><img src="signature-twitter.png" style="vertical-align:middle;"></a><a href="https://instagram.com/logcluster" style="color: #34495e;text-decoration: none; font-size:12px;"><img src="signature-instagram.png" style="vertical-align:middle;"></a><a href="https://www.linkedin.com/company/logcluster/" style="color: #34495e;text-decoration: none; font-size:12px;"><img src="signature-linkedin.png" style="vertical-align:middle;"></a></div></div>';*/
+
+      var divTemplate = '<div id="signature" style="font-family: \'Calibri\', Helvetica, Arial, sans-serif; color: #000;font-size: 14px; width: %width%px;"><h1 style="font-weight: normal;color: %color%; font-size: 16px;margin:0;line-height:normal;">%nameSurname%</h1><h1 style="font-style: italic;color: #000;margin:0 0 10px 0;font-size: 14px; font-weight:normal;line-height:normal;">%title%</h1><p>%unit%<br />%location%<br />Email: <a href="mailto:%email%" style="color: #34495e;font-weight:bold;text-decoration: none;">%email%</a><br />Telephone: <a href="tel:%telephone%" style="color: #34495e;font-weight:bold;text-decoration: none;">%telephone%</a><br />Mobile: <a href="tel:%mobile%" style="color: #34495e;font-weight:bold;text-decoration: none;">%mobile%</a><br />Skype: <a href="skype:%skype%?chat" style="color: #34495e;font-weight:bold;text-decoration: none;">%skype%</a><br />Website: <a href="https://logcluster.org" style="color: #34495e;font-weight:bold;text-decoration: none;">logcluster.org</a></p><div><a href="https://logcluster.org"><img style="height:%footerHeight%px;width:%width%px;" height="%footerHeight%" width="%width%" src="https://www.logcluster.org/sites/default/files/signature-footer-%type%.png" /></a></div><table style="width: %width%px; margin-top: 10px; text-align: center;"><tr><td><a href="https://www.facebook.com/logcluster" style="color: #34495e;text-decoration: none; font-size:12px; text-align: center; width: %quarterWidth%px;"><img src="https://www.logcluster.org/sites/default/files/signature-round-%colorText%-facebook.png" style="vertical-align:middle;"></a></td><td><a href="https://twitter.com/logcluster" style="color: #34495e;text-decoration: none; font-size:12px; text-align: center; width: %quarterWidth%px;"><img src="https://www.logcluster.org/sites/default/files/signature-round-%colorText%-twitter.png" style="vertical-align:middle;"></a></td><td><a href="https://instagram.com/logcluster" style="color: #34495e;text-decoration: none; font-size:12px; text-align: center; width: %quarterWidth%px;"><img src="https://www.logcluster.org/sites/default/files/signature-round-%colorText%-instagram.png" style="vertical-align:middle;"></a></td><td><a href="https://www.linkedin.com/company/logcluster/" style="color: #34495e;text-decoration: none; font-size:12px; text-align: center; width: %quarterWidth%px;"><img src="https://www.logcluster.org/sites/default/files/signature-round-%colorText%-linkedin.png" style="vertical-align:middle;"></a></td></tr></table></div>';
+
+          var defaults = {
+            "nameSurname": "Name Surname",
+            "title": "Title",
+            "unit": "Unit",
+            "location": "Rome, Italy",
+            "email": "name.surname@wfp.org",
+            "telephone": "+39 06 6513 ????",
+            "mobile": "+39 ??? ???????",
+            "skype": "skype.id",
+            "type": "cluster",
+            "color": "#34495e",
+            "colorText": "red",
+            "width": "220",
+            "quarterWidth": "55"
+        };
+        var colors = 		{ "cluster": "#C0392B", "sector": "#34495e", "syria": "#34495e"}
+    		var colorsText =	{ "cluster": "red", "sector": "blue", "syria": "blue"}
+        var originalRatioForFooter = 10/3;
+
+        function updateSignature() {
+            var type = $('#type').val();
+            $('#color').val(colors[type]);
+            $('#colorText').val(colorsText[type]);
+
+            /*var width = $('#width').val();
+            $('#quarterWidth').val(width/4);
+            $('#footerHeight').val(width/originalRatioForFooter);*/
+
+            var txt = divTemplate;
+            for(var p in defaults) {
+                txt = replaceAll("%"+p+"%", $("#"+p).val() == "" ? defaults[p] : $("#"+p).val(), txt);
+            }
+            $("#signature").html(txt);
+        }
+        
+        $(document).ready(function(){
+            $('input').keyup(updateSignature);
+            $('select').change(updateSignature);
+            
+            updateSignature();
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Logistics Cluster Signature Maker</h2>
+        <p class="text-success">Fill this form with your information.</p>
+        <form class="form-horizontal">
+            <div class="control-group">
+                <label class="control-label" for="nameSurname">Name and Surname</label>
+                <div class="controls">
+                  <input type="text" id="nameSurname" placeholder="Name Surname">
+              </div>
+              <label class="control-label" for="title">Title</label>
+              <div class="controls">
+                  <input type="text" id="title" placeholder="Boss, chief, coordinator, etc">
+              </div>
+              <label class="control-label" for="unit">Unit</label>
+              <div class="controls">
+                  <input type="text" id="unit" placeholder="Logistics Cluster">
+              </div>
+              <label class="control-label" for="location">Location</label>
+              <div class="controls">
+                  <input type="text" id="location" placeholder="Rome, Bangkok, Goma, etc">
+              </div>
+              <label class="control-label" for="email">Email address</label>
+              <div class="controls">
+                  <input type="text" id="email" placeholder="firstname.surname@wfp.org">
+              </div>
+              <label class="control-label" for="telephone">Telephone</label>
+              <div class="controls">
+                  <input type="text" id="telephone" placeholder="+39 06 6513 ????">
+              </div>
+              <label class="control-label" for="mobile">Mobile</label>
+              <div class="controls">
+                  <input type="text" id="mobile" placeholder="+39 ??? ???????">
+              </div>
+              <label class="control-label" for="skype">Skype</label>
+              <div class="controls">
+                  <input type="text" id="skype" placeholder="Your Skype id">
+              </div>
+              <label class="control-label" for="type">Type</label>
+              <div class="controls">
+                  <select id="type">
+                    <option value="cluster" selected="selected">Cluster</option>
+                    <option value="sector">Sector</option>
+                    <option value="syria">Syria</option>
+                  </select>
+                  <input type="hidden" id="colorText" value="red" />
+                  <input type="hidden" id="color" value="#34495e" />
+              </div>
+              <!--<label class="control-label" for="width">Width</label>
+              <div class="controls">
+                  <select id="width">
+                    <option value="140">140px</option>
+                    <option value="160">160px</option>
+                    <option value="180">180px</option>
+                    <option value="200">200px</option>
+                    <option value="220" selected="selected">220px</option>
+                    <option value="240">240px</option>
+                    <option value="260">260px</option>
+                    <option value="280">280px</option>
+                    <option value="300">300px</option>
+                    <option value="320">320px</option>
+                    <option value="340">340px</option>
+                    <option value="360">360px</option>
+                  </select>
+              </div>-->
+              <input type="hidden" id="width" value="220" />
+              <input type="hidden" id="quarterWidth" value="55" />
+              <input type="hidden" id="footerHeight" value="90" />
+          </div>
+      </form>
+      <p class="text-success">Use the button below to select your signature and then copy and paste it into Outlook</p>
+      <div class="controls">
+          <button class="btn btn-primary" type="button" onclick="selectText('signature');">Select Signature</button>
+      </div>
+      <p>&nbsp;</p>
+      <div id="signature"></div>
+  </div>
+</body>
+</html>
