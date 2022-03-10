@@ -1,0 +1,95 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 11" tvg-logo="http://logo.sltv.site/logo/portugal/CANAL%2011.png" group-title="PT DESPORTO",PT: CANAL 11
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/203036
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 11 HD" tvg-logo="http://logo.sltv.site/logo/portugal/CANAL%2011.png" group-title="PT DESPORTO",PT: CANAL 11 HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/205660
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 11 H.265/HEVC" tvg-logo="http://logo.sltv.site/logo/portugal/CANAL%2011.png" group-title="PT DESPORTO",PT: CANAL 11 H.265/HEVC
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/203037
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV +" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%20+.png" group-title="PT DESPORTO",PT: SPORT TV +
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/161969
+#EXTINF:-1 tvg-id="sporttvplus.pt" tvg-name="SPORT TV + HD" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%20+%20FHD.png" group-title="PT DESPORTO",PT: SPORT TV + HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/374647
+#EXTINF:-1 tvg-id="sporttvplus.pt" tvg-name="SPORT TV +H.265/HEVC" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%20+%20FHD.png" group-title="PT DESPORTO",PT: SPORT TV +H.265/HEVC
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/338957
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 1" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%201.png" group-title="PT DESPORTO",PT: SPORT TV 1
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/285911
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 1 HD" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%201%20FULL%20HD.png" group-title="PT DESPORTO",PT: SPORT TV 1 HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/302761
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 1 H.265/HEVC" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%201%20FULL%20HD.png" group-title="PT DESPORTO",PT: SPORT TV 1 H.265/HEVC
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/1455
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 2" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%202.png" group-title="PT DESPORTO",PT: SPORT TV 2
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/161957
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 2 HD" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%202%20FULL%20HD.png" group-title="PT DESPORTO",PT: SPORT TV 2 HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/205667
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 2 H.265/HEVC" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%202%20FULL%20HD.png" group-title="PT DESPORTO",PT: SPORT TV 2 H.265/HEVC
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/1456
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 3" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%203.png" group-title="PT DESPORTO",PT: SPORT TV 3
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/161966
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 3 HD" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%203%20FULL%20HD.png" group-title="PT DESPORTO",PT: SPORT TV 3 HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/205668
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 3 H.265/HEVC" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%203%20FULL%20HD.png" group-title="PT DESPORTO",PT: SPORT TV 3 H.265/HEVC
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/1457
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 4" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%204.png" group-title="PT DESPORTO",PT: SPORT TV 4
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/161967
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 4 HD" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%204%20FULL%20%20HD.png" group-title="PT DESPORTO",PT: SPORT TV 4 HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/1458
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 4 H.265/HEVC" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%204%20FULL%20%20HD.png" group-title="PT DESPORTO",PT: SPORT TV 4 H.265/HEVC
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/209531
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 5" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%205.png" group-title="PT DESPORTO",PT: SPORT TV 5
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/161968
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 5 HD" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%205%20FULL%20HD.png" group-title="PT DESPORTO",PT: SPORT TV 5 HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/1459
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 5 H.265/HEVC" tvg-logo="http://logo.sltv.site/logo/portugal/SPORTV%205%20FULL%20HD.png" group-title="PT DESPORTO",PT: SPORT TV 5 H.265/HEVC
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/178145
+#EXTINF:-1 tvg-id="sporttv6.pt" tvg-name="SPORT TV 6" tvg-logo="http://logo.sltv.site/logo/portugal/sportTV6.png" group-title="PT DESPORTO",PT: SPORT TV 6
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/374543
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV 6 HD" tvg-logo="http://logo.sltv.site/logo/portugal/sportTV6.png" group-title="PT DESPORTO",PT: SPORT TV 6 HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/367634
+#EXTINF:-1 tvg-id="sporttv6.pt" tvg-name="SPORT TV 6 H.265/HEVC" tvg-logo="http://logo.sltv.site/logo/portugal/sportTV6.png" group-title="PT DESPORTO",PT: SPORT TV 6 H.265/HEVC
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/374544
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV NBA" tvg-logo="http://logo.sltv.site/logo/portugal/NBA.png" group-title="PT DESPORTO",PT: SPORT TV NBA
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/178146
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV NBA HD" tvg-logo="http://logo.sltv.site/logo/portugal/NBA.png" group-title="PT DESPORTO",PT: SPORT TV NBA HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/252145
+#EXTINF:-1 tvg-id="" tvg-name="SPORT TV NBA H.265/HEVC" tvg-logo="http://logo.sltv.site/logo/portugal/NBA.png" group-title="PT DESPORTO",PT: SPORT TV NBA H.265/HEVC
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/183821
+#EXTINF:-1 tvg-id="" tvg-name="BTV" tvg-logo="http://logo.sltv.site/logo/portugal/BTV%201.png" group-title="PT DESPORTO",PT: BTV
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/161970
+#EXTINF:-1 tvg-id="" tvg-name="BTV HD" tvg-logo="http://logo.sltv.site/logo/portugal/BTV%201%20FULL%20HD.png" group-title="PT DESPORTO",PT: BTV HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/205659
+#EXTINF:-1 tvg-id="" tvg-name="BTV H.265/HEVC" tvg-logo="http://logo.sltv.site/logo/portugal/BTV%201%20FULL%20HD.png" group-title="PT DESPORTO",PT: BTV H.265/HEVC
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/271763
+#EXTINF:-1 tvg-id="" tvg-name="PFC INTERNACIONAL" tvg-logo="http://logo.sltv.site/logo/portugal/PFC.png" group-title="PT DESPORTO",PT: PFC INTERNACIONAL
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/277512
+#EXTINF:-1 tvg-id="" tvg-name="ELEVEN SPORTS 1 SD" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport1.png" group-title="PT DESPORTO",PT: ELEVEN SPORTS 1 SD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/164977
+#EXTINF:-1 tvg-id="" tvg-name="ELEVEN SPORTS 1 HD" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport1.png" group-title="PT DESPORTO",PT: ELEVEN SPORTS 1 HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/158069
+#EXTINF:-1 tvg-id="" tvg-name="ELEVEN SPORTS 1 H.265/HEVC" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport1.png" group-title="PT DESPORTO",PT: ELEVEN SPORTS 1 H.265/HEVC
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/285912
+#EXTINF:-1 tvg-id="" tvg-name="ELEVEN SPORTS 2 SD" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport2.png" group-title="PT DESPORTO",PT: ELEVEN SPORTS 2 SD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/164978
+#EXTINF:-1 tvg-id="" tvg-name="ELEVEN SPORTS 2 HD" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport2.png" group-title="PT DESPORTO",PT: ELEVEN SPORTS 2 HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/158902
+#EXTINF:-1 tvg-id="" tvg-name="ELEVEN SPORTS 2 H.265/HEVC" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport2.png" group-title="PT DESPORTO",PT: ELEVEN SPORTS 2 H.265/HEVC
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/272329
+#EXTINF:-1 tvg-id="" tvg-name="ELEVEN SPORTS 3 SD" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport3.png" group-title="PT DESPORTO",PT: ELEVEN SPORTS 3 SD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/164979
+#EXTINF:-1 tvg-id="" tvg-name="ELEVEN SPORTS 3 HD" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport3.png" group-title="PT DESPORTO",PT: ELEVEN SPORTS 3 HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/159765
+#EXTINF:-1 tvg-id="" tvg-name="ELEVEN SPORTS 3 H.265/HEVC" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport3.png" group-title="PT DESPORTO",PT: ELEVEN SPORTS 3 H.265/HEVC
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/272330
+#EXTINF:-1 tvg-id="" tvg-name="ELEVEN SPORTS 4 SD" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport4.png" group-title="PT DESPORTO",PT: ELEVEN SPORTS 4 SD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/164980
+#EXTINF:-1 tvg-id="" tvg-name="ELEVEN SPORT 4 HD" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport4.png" group-title="PT DESPORTO",PT: ELEVEN SPORT 4 HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/159766
+#EXTINF:-1 tvg-id="" tvg-name="ELEVEN SPORTS 5 SD" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport5.png" group-title="PT DESPORTO",PT: ELEVEN SPORTS 5 SD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/164981
+#EXTINF:-1 tvg-id="" tvg-name="ELEVENSPORT 5 HD" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport5.png" group-title="PT DESPORTO",PT: ELEVENSPORT 5 HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/159767
+#EXTINF:-1 tvg-id="" tvg-name="ELEVEN SPORTS 6 SD" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport6.png" group-title="PT DESPORTO",PT: ELEVEN SPORTS 6 SD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/164982
+#EXTINF:-1 tvg-id="" tvg-name="ELEVENSPORT 6 HD" tvg-logo="http://logo.sltv.site/logo/portugal/elevensport6.png" group-title="PT DESPORTO",PT: ELEVENSPORT 6 HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/159768
+#EXTINF:-1 tvg-id="" tvg-name="NBA TV HD" tvg-logo="http://logo.sltv.site/logo/portugal/NBA.png" group-title="PT DESPORTO",PT: NBA TV HD
+http://maxhd.org:8080/eisenhower/uH6Sutm3Mf/132918
