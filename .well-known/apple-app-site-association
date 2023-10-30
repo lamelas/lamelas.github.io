@@ -1,0 +1,18 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+          {
+              "appID": "4KP3S5A7A7.org.wfp.manuals.monitoringhandbook",
+              "paths": [
+                  "*"
+              ]
+          }
+      ]
+  },
+  "activitycontinuation": {
+      "apps": [
+          "4KP3S5A7A7.org.wfp.manuals.monitoringhandbook"
+      ]
+  }
+}
