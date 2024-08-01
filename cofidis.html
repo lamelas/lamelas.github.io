@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Extrair movimentos Cofidis</title>
+</head>
+<body>
+    <h1>Export Movements Cofidis para CSV</h1>
+    <p>Drag the link below to your bookmarks bar or right-click and choose "Bookmark this link" to save it:</p>
+    <a href="javascript:(function(){var a=document.querySelectorAll('.osui-tabs--is-active .list-movements > div[data-container]'),r=Array.from(a).map(function(m){var d=m.querySelector('span.font-medium.text-neutral-7'),desc=m.querySelector('span.font-semi-bold.font-size-base.line-clamp-1'),v=m.querySelector('span.font-bold.font-size-base.white-space-nowrap'),i=m.querySelector('i.cofidis-coins');d=d?d.innerText:'';desc=desc?desc.innerText:'';v=v?v.innerText:'';v=parseFloat(v.replace(/[^\d,-]/g,'').replace(',','.'));if(i)v=-Math.abs(v);return{d:d,desc:desc,v:v};}),ds=r.map(function(o){return new Date(o.d.split('/').reverse().join('-'));}),min=new Date(Math.min.apply(null,ds)),max=new Date(Math.max.apply(null,ds)),f=function(date){var y=date.getFullYear(),m=(date.getMonth()+1).toString().padStart(2,'0');return y+'-'+m;},minStr=f(min),maxStr=f(max),csv='"Date","Description","Value"\n'+r.map(function(o){return`"${o.d}","${o.desc.replace(/"/g,'""')}","${o.v}"`;}).join('\n'),b=new Blob([csv],{type:'text/csv;charset=utf-8;'}),u=URL.createObjectURL(b),l=document.createElement('a');l.href=u;l.download='movements-'+minStr+'-'+maxStr+'.csv';document.body.appendChild(l);l.click();document.body.removeChild(l);})();">Exportar Movimentos Cofidis</a>
+</body>
+</html>
