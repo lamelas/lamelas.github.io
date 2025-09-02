@@ -86,19 +86,19 @@ header {
   align-items: center;
 }
 
-.contact {
+#contacts {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   font-size: 1em;
 }
 
-.contact p {
+#contacts p {
   margin: 0;
   font-size: 0.9em;
 }
 
-.contact p a {
+#contacts p a {
   text-decoration: none;
 }
 
