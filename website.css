@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Instrument+Serif&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "custom.css";
+
+:root {
+    --transition-duration: 250ms;
+}
+
+body {
+  max-width: 640px !important;
+}
+
+.contact p a {
+  text-decoration: underline !important;
+}
+
+h2 {
+  position: relative;
+  padding-inline-end: 1.5em;
+}
+
+h2::after {
+  color: darkgreen !important;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTI0IiBoZWlnaHQ9IjMzNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJjdXJyZW50Q29sb3IiIHN0cm9rZT0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgNTI0IDMzNCI+CiAgICA8cGF0aCBkPSJNMzYuMDAwMDAwLDM2LjAwMDAwMCBMMjk3LjAwMDAwMCwyOTcuMDAwMDAwICIgc3Ryb2tlLXdpZHRoPSIxMDAuMDAwMDAwIiAvPgogICAgPHBhdGggZD0iTTQ4OC4wMDAwMDAsMzcuMDAwMDAwIEwyMjcuMDAwMDAwLDI5OC4wMDAwMDAgIiBzdHJva2Utd2lkdGg9IjEwMC4wMDAwMDAiIC8+Cjwvc3ZnPg==") !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: contain !important;
+  content: "";
+  position: absolute;
+  width: 0.5em;
+  height: 0.5em;
+  right: 0.25em;
+  top: 50%;
+  transform: translateY(-50%) rotate(0deg);
+  transition: transform var(--transition-duration) ease;
+  z-index: 0;
+}
+
+h2.closed::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.collapsible {
+  display: block;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height var(--transition-duration) ease;
+}
+
+.collapsed {
+  max-height: 0;
+}
