@@ -1,220 +1,339 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-UK" xml:lang="en-UK">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>André Lamelas</title>
-  <style>
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>André Lamelas</title>
+    <style>
+      code {
+        white-space: pre-wrap;
+      }
+      span.smallcaps {
+        font-variant: small-caps;
+      }
+      div.columns {
+        display: flex;
+        gap: min(4vw, 1.5em);
+      }
+      div.column {
+        flex: auto;
+        overflow-x: auto;
+      }
+      div.hanging-indent {
+        margin-left: 1.5em;
+        text-indent: -1.5em;
+      }
+      /* The extra [class] is a hack that increases specificity enough to
        override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
-  <link rel="stylesheet" href="../templates/custom.css" />
-<link rel="stylesheet" href="website.css" />
-<script src="website.js"></script>
-</head>
-<body>
-<header id="title-block-header">
-<h1 class="title">André Lamelas</h1>
+      ul.task-list[class] {
+        list-style: none;
+      }
+      ul.task-list li input[type="checkbox"] {
+        font-size: inherit;
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1.6em;
+        vertical-align: middle;
+      }
+      .display.math {
+        display: block;
+        text-align: center;
+        margin: 0.5rem auto;
+      }
+    </style>
+    <link rel="stylesheet" href="../templates/custom.css" />
+    <link rel="stylesheet" href="website.css" />
+    <script src="website.js"></script>
+  </head>
+  <body>
+    <header id="title-block-header">
+      <h1 class="title">André Lamelas</h1>
 
-<div class="contact">
-  <p><strong><a href="mailto:andre@lamelas.org">andre@lamelas.org</a></strong> | <strong><a href="tel:+351
-912 461 135">+351 912 461
-135</a></strong> | <strong><a href="https://github.com/lamelas">github.com/lamelas</a></strong> | <strong><a href="https://linkedin.com/in/lamelas">linkedin.com/in/lamelas</a></strong></p>
-</div>
-
-</header>
-<h2 id="about-me">About Me</h2>
-<div id="about-me-contents">
-<p>Hi! I am André Lamelas, a software engineer with 17 years of
-professional experience doing what I enjoy most: solving problems
-through technology. I love a good challenge and I thrive working with
-complex systems. If you need someone to look at a codebase nobody has
-touched in 10 years and uncover its secrets, that’s me.</p>
-</div>
-<h2 id="technical-skills">Technical Skills</h2>
-<div id="technical-skills-contents">
-<p><strong>AWS:</strong> EC2, ECS, S3, IAM, Lambda, RDS, CloudFront,
-Route53, MediaConvert, CloudWatch, CloudFormation, Glue, Athena<br />
-<strong>DevOps:</strong> Docker, Terraform, Azure DevOps, Jenkins,
-GitHub Actions<br />
-<strong>Web:</strong> Drupal, Laravel, React, Wordpress, HTML,
-CSS/SASS/SCSS<br />
-<strong>Mobile:</strong> React Native, Expo, SwiftUI, Flutter,
-Kotlin<br />
-<strong>Languages:</strong> Python, PHP, JavaScript/TypeScript, Ruby,
-Swift, Java, C#</p>
-</div>
-<h2 id="professional-experience">Professional Experience</h2>
-<div id="professional-experience-contents">
-<h3 id="united-nations-world-food-programme">United Nations World Food
-Programme</h3>
-<p><em>Solutions Architect, 2022 - Present</em></p>
-<ul>
-<li>Served as Solutions Architect for several projects, including WFP’s
-intranet and several external facing websites.
-<ul>
-<li>Designed and implemented AWS infrastructure using Terraform</li>
-<li>Built CI/CD pipelines in Azure DevOps</li>
-<li>Supported development teams to cover skill gaps</li>
-<li>Designed software architecture and data models</li>
-<li>Ensured compliance with WFP standards and maintained high-quality
-technical solutions</li>
-<li>Provided guidance and direction to development teams as needed</li>
-<li>Acted as Product Owner and Scrum Master when required</li>
-</ul></li>
-<li>For the Wellbeing project, a 9-agency platform (web and mobile
-applications) dedicated to the wellbeing of UN employees and their
-families:
-<ul>
-<li>Managed the relationship with the external vendor</li>
-<li>Planned and detailed the migration process</li>
-<li>Reimplemented the complex AWS infrastructure using Terraform</li>
-<li>Built CI/CD pipelines in Azure DevOps for all agency web instances
-(production and development)</li>
-<li>Executed the migration of all web instances and mobile applications
-on schedule</li>
-<li>Implemented a custom media transformation CDN (Lambda@Edge, Python,
-CloudFront, S3) to replace Cloudinary, Imgix, and Mux</li>
-<li>Coordinated the new development team during the refactoring phase to
-ensure compliance with WFP standards</li>
-</ul></li>
-<li>For the WFP Monitoring Handbook mobile application:
-<ul>
-<li>Designed and implemented the overall architecture</li>
-<li>Developed a Drupal-based proxy to integrate with Document360
-content</li>
-<li>Built CI/CD pipelines in Azure DevOps for both the proxy and mobile
-applications</li>
-<li>Managed and collaborated with the React Native development team</li>
-<li>Acted as project manager/product owner during development</li>
-</ul></li>
-</ul>
-<h3 id="united-nations-world-food-programme-1">United Nations World Food
-Programme</h3>
-<p><em>Web Developer and Technology Lead, 2010 - 2022</em></p>
-<ul>
-<li>Led the evolution of the Logistics Cluster website from Plone to
-Drupal 7 and later to Drupal 8/9:
-<ul>
-<li>Requirements specification, data modeling, information architecture,
-UI/UX workflows</li>
-<li>Infrastructure implementation and maintenance (AWS EC2, RDS, S3,
-Route 53, CloudFront, WAF)</li>
-<li>Managed a small development team (Drupal developer and graphic
-designer)</li>
-<li>Coordinated migrations and relationships with external vendors</li>
-<li>Contributed to backend (Drupal, Elasticsearch) and frontend (Twig,
-SCSS, JavaScript) development</li>
-</ul></li>
-<li>Oversaw the transformation of the Digital Logistics Capacity
-Assessments (DLCA) and the Logistics Operational Guide (LOG) from PDF to
-Confluence and eventually to a custom Drupal-based platform</li>
-<li>Modernized and redeveloped the United Nations Humanitarian Response
-Depots (UNHRD) website from Drupal 7 to Drupal 9</li>
-<li>Implemented the new UNHRD Partner and Staff Portal (Drupal 8/9)</li>
-<li>Built a Laravel-based dashboard to display real-time UNHRD logistics
-operations and activities</li>
-<li>In response to Covid-19, created the CHOCOLAT platform to
-consolidate partners’ cargo transport needs and offers</li>
-<li>Co-developed EDUARDO, a cargo-flight search engine with UPS and
-Google, supporting partners’ global transport needs</li>
-<li>Contributed to the development of the Relief Item Tracking
-Application (RITA), a core Logistics Cluster tool for cargo
-tracking</li>
-<li>Developed the Logistics Cluster iOS app (iOS 5), providing offline
-access to products including interactive maps</li>
-<li>Built the mobile web version of the Humanitarian Early Warning
-System (HEWS) using jQuery Mobile and ASP.NET</li>
-<li>Administered the GIS GeoServer instance used for field logistics
-information sharing</li>
-<li>Maintained the original Logistics Cluster server hosting Drupal
-sites, WebDAV, Mailman, and related services</li>
-</ul>
-<h3 id="ao-dispor">Ao Dispor</h3>
-<p><em>Co-founder and CTO, 2014 - 2018</em></p>
-<p>Co-founded and served as CTO of Ao Dispor, a nonprofit startup
-offering an online marketplace for services: oversaw all technical
-development, designed and built the web components (Laravel), developed
-the native iOS/Android mobile apps (Swift/Java), implemented the
-advanced, location-based search engine (Elasticsearch). Conceived and
-deployed several growth-focused technology solutions, including
-large-scale ad campaigns with municipal authorities. In an effort to
-maximize code reuse, initiated a full rewrite of web and mobile apps
-using React and React Native. Managed a small team developing the
-Android app and a web prototype in partnership with the Faculty of
-Engineering, University of Porto (Coding for Social Impact project).</p>
-<div style="page-break-after: always;">
-
-</div>
-<h3 id="opt---organização-e-planeamento-de-transportes">OPT -
-Organização e Planeamento de Transportes</h3>
-<p><em>Software Engineer, 2018 - 2020</em></p>
-<p>Contributed to the development of a new Demand Responsive Transport
-(DRT) platform from inception to pilot phase: defined requirements,
-modeled domain data structures, developed both frontend (React) and
-backend (C#, ASP.NET Core), built and delivered the mobile application
-for the bus drivers (React Native) and implemented the route
-optimization algorithm leading to increased route planning efficiency.
-Enhanced the company’s schematic diagram generation application by
-improving the algorithm, usability and output quality.</p>
-<h3 id="scroll---interactive-play-for-smartphones">Scroll - Interactive
-Play for Smartphones</h3>
-<p><em>Software Engineer, 2019</em></p>
-<p>Designed, planned and implemented all the technical components of
-Scroll, an interactive theatre experience for smartphones. Delivered a
-cross-platform React Native app (iOS and Android) with native features
-like location-based tracking and push notifications. The backend for
-managing the play was built using Drupal.</p>
-<h3 id="pt-inovação-altice-labs">PT Inovação (Altice Labs)</h3>
-<p><em>Software Engineer, 2008 - 2009</em></p>
-<p>Built a Ruby on Rails wiki platform with a custom jQuery-based
-WYSIWYG editor. Developed a real-time monitoring system in Java (Google
-Web Toolkit) to support KPI analysis for large telecom companies,
-integrated with Apache ServiceMix (SOA) and using complex Event
-Processing tools (Apache Camel, ActiveMQ)</p>
-</div>
-<h2 id="education">Education</h2>
-<div id="education-contents">
-<h3
-id="faculdade-de-engenharia-da-universidade-do-porto-portugal">Faculdade
-de Engenharia da Universidade do Porto, Portugal</h3>
-<p><em>Master in Informatics and Computing Engineering,
-2003-2008</em></p>
-<p>Main topics: Software Engineering, Web Development, Algorithms and
-Data Structures, Computer Graphics, Project Management, Software
-Development Processes, Artificial Intelligence, Computer Networks,
-Operating Systems, Distributed Systems, Computer Architecture,
-Operations Research, Databases, Markup Languages, Sound and Video
-Editing</p>
-</div>
-<h2 id="languages">Languages</h2>
-<div id="languages-contents">
-<p><strong>Portuguese</strong><br />
-Mother tongue</p>
-<p><strong>English</strong><br />
-Full-professional proficiency</p>
-<p><strong>French</strong><br />
-Limited working proficiency</p>
-<p><strong>Italian</strong><br />
-Limited working proficiency</p>
-</div>
-<h2 id="interests">Interests</h2>
-<div id="interests-contents">
-<p>Food, board games, history, art, architecture</p>
-</div>
-</body>
+      <div class="contact">
+        <p>
+          <strong
+            ><a href="mailto:andre@lamelas.org">andre@lamelas.org</a></strong
+          >
+          |
+          <strong
+            ><a
+              href="tel:+351
+912 461 135"
+              >+351 912 461 135</a
+            ></strong
+          >
+          |
+          <strong
+            ><a href="https://github.com/lamelas">github.com/lamelas</a></strong
+          >
+          |
+          <strong
+            ><a href="https://linkedin.com/in/lamelas"
+              >linkedin.com/in/lamelas</a
+            ></strong
+          >
+        </p>
+      </div>
+    </header>
+    <h2 id="about-me">About Me</h2>
+    <div id="about-me-contents">
+      <p>
+        Hi! I am André Lamelas, a software engineer with 17 years of
+        professional experience doing what I enjoy most: solving problems
+        through technology. I love a good challenge and I thrive working with
+        complex systems. If you need someone to look at a codebase nobody has
+        touched in 10 years and uncover its secrets, that’s me.
+      </p>
+    </div>
+    <h2 id="technical-skills">Technical Skills</h2>
+    <div id="technical-skills-contents">
+      <p>
+        <strong>AWS:</strong> EC2, ECS, S3, IAM, Lambda, RDS, CloudFront,
+        Route53, MediaConvert, CloudWatch, CloudFormation, Glue, Athena<br />
+        <strong>DevOps:</strong> Docker, Terraform, Azure DevOps, Jenkins,
+        GitHub Actions<br />
+        <strong>Web:</strong> Drupal, Laravel, React, Wordpress, HTML,
+        CSS/SASS/SCSS<br />
+        <strong>Mobile:</strong> React Native, Expo, SwiftUI, Flutter, Kotlin<br />
+        <strong>Languages:</strong> Python, PHP, JavaScript/TypeScript, Ruby,
+        Swift, Java, C#
+      </p>
+    </div>
+    <h2 id="professional-experience">Professional Experience</h2>
+    <div id="professional-experience-contents">
+      <h3 id="united-nations-world-food-programme">
+        United Nations World Food Programme
+      </h3>
+      <p><em>Solutions Architect, 2022 - Present</em></p>
+      <ul>
+        <li>
+          Served as Solutions Architect for several projects, including WFP’s
+          intranet and several external facing websites.
+          <ul>
+            <li>Designed and implemented AWS infrastructure using Terraform</li>
+            <li>Built CI/CD pipelines in Azure DevOps</li>
+            <li>Supported development teams to cover skill gaps</li>
+            <li>Designed software architecture and data models</li>
+            <li>
+              Ensured compliance with WFP standards and maintained high-quality
+              technical solutions
+            </li>
+            <li>
+              Provided guidance and direction to development teams as needed
+            </li>
+            <li>Acted as Product Owner and Scrum Master when required</li>
+          </ul>
+        </li>
+        <li>
+          For the Wellbeing project, a 9-agency platform (web and mobile
+          applications) dedicated to the wellbeing of UN employees and their
+          families:
+          <ul>
+            <li>Managed the relationship with the external vendor</li>
+            <li>Planned and detailed the migration process</li>
+            <li>
+              Reimplemented the complex AWS infrastructure using Terraform
+            </li>
+            <li>
+              Built CI/CD pipelines in Azure DevOps for all agency web instances
+              (production and development)
+            </li>
+            <li>
+              Executed the migration of all web instances and mobile
+              applications on schedule
+            </li>
+            <li>
+              Implemented a custom media transformation CDN (Lambda@Edge,
+              Python, CloudFront, S3) to replace Cloudinary, Imgix, and Mux
+            </li>
+            <li>
+              Coordinated the new development team during the refactoring phase
+              to ensure compliance with WFP standards
+            </li>
+          </ul>
+        </li>
+        <li>
+          For the WFP Monitoring Handbook mobile application:
+          <ul>
+            <li>Designed and implemented the overall architecture</li>
+            <li>
+              Developed a Drupal-based proxy to integrate with Document360
+              content
+            </li>
+            <li>
+              Built CI/CD pipelines in Azure DevOps for both the proxy and
+              mobile applications
+            </li>
+            <li>
+              Managed and collaborated with the React Native development team
+            </li>
+            <li>Acted as project manager/product owner during development</li>
+          </ul>
+        </li>
+      </ul>
+      <h3 id="united-nations-world-food-programme-1">
+        United Nations World Food Programme
+      </h3>
+      <p><em>Web Developer and Technology Lead, 2010 - 2022</em></p>
+      <ul>
+        <li>
+          Led the evolution of the Logistics Cluster website from Plone to
+          Drupal 7 and later to Drupal 8/9:
+          <ul>
+            <li>
+              Requirements specification, data modeling, information
+              architecture, UI/UX workflows
+            </li>
+            <li>
+              Infrastructure implementation and maintenance (AWS EC2, RDS, S3,
+              Route 53, CloudFront, WAF)
+            </li>
+            <li>
+              Managed a small development team (Drupal developer and graphic
+              designer)
+            </li>
+            <li>
+              Coordinated migrations and relationships with external vendors
+            </li>
+            <li>
+              Contributed to backend (Drupal, Elasticsearch) and frontend (Twig,
+              SCSS, JavaScript) development
+            </li>
+          </ul>
+        </li>
+        <li>
+          Oversaw the transformation of the Digital Logistics Capacity
+          Assessments (DLCA) and the Logistics Operational Guide (LOG) from PDF
+          to Confluence and eventually to a custom Drupal-based platform
+        </li>
+        <li>
+          Modernized and redeveloped the United Nations Humanitarian Response
+          Depots (UNHRD) website from Drupal 7 to Drupal 9
+        </li>
+        <li>Implemented the new UNHRD Partner and Staff Portal (Drupal 8/9)</li>
+        <li>
+          Built a Laravel-based dashboard to display real-time UNHRD logistics
+          operations and activities
+        </li>
+        <li>
+          In response to Covid-19, created the CHOCOLAT platform to consolidate
+          partners’ cargo transport needs and offers
+        </li>
+        <li>
+          Co-developed EDUARDO, a cargo-flight search engine with UPS and
+          Google, supporting partners’ global transport needs
+        </li>
+        <li>
+          Contributed to the development of the Relief Item Tracking Application
+          (RITA), a core Logistics Cluster tool for cargo tracking
+        </li>
+        <li>
+          Developed the Logistics Cluster iOS app (iOS 5), providing offline
+          access to products including interactive maps
+        </li>
+        <li>
+          Built the mobile web version of the Humanitarian Early Warning System
+          (HEWS) using jQuery Mobile and ASP.NET
+        </li>
+        <li>
+          Administered the GIS GeoServer instance used for field logistics
+          information sharing
+        </li>
+        <li>
+          Maintained the original Logistics Cluster server hosting Drupal sites,
+          WebDAV, Mailman, and related services
+        </li>
+      </ul>
+      <h3 id="ao-dispor">Ao Dispor</h3>
+      <p><em>Co-founder and CTO, 2014 - 2018</em></p>
+      <p>
+        Co-founded and served as CTO of Ao Dispor, a nonprofit startup offering
+        an online marketplace for services: oversaw all technical development,
+        designed and built the web components (Laravel), developed the native
+        iOS/Android mobile apps (Swift/Java), implemented the advanced,
+        location-based search engine (Elasticsearch). Conceived and deployed
+        several growth-focused technology solutions, including large-scale ad
+        campaigns with municipal authorities. In an effort to maximize code
+        reuse, initiated a full rewrite of web and mobile apps using React and
+        React Native. Managed a small team developing the Android app and a web
+        prototype in partnership with the Faculty of Engineering, University of
+        Porto (Coding for Social Impact project).
+      </p>
+      <div style="page-break-after: always"></div>
+      <h3 id="opt---organização-e-planeamento-de-transportes">
+        OPT - Organização e Planeamento de Transportes
+      </h3>
+      <p><em>Software Engineer, 2018 - 2020</em></p>
+      <p>
+        Contributed to the development of a new Demand Responsive Transport
+        (DRT) platform from inception to pilot phase: defined requirements,
+        modeled domain data structures, developed both frontend (React) and
+        backend (C#, ASP.NET Core), built and delivered the mobile application
+        for the bus drivers (React Native) and implemented the route
+        optimization algorithm leading to increased route planning efficiency.
+        Enhanced the company’s schematic diagram generation application by
+        improving the algorithm, usability and output quality.
+      </p>
+      <h3 id="scroll---interactive-play-for-smartphones">
+        Scroll - Interactive Play for Smartphones
+      </h3>
+      <p><em>Software Engineer, 2019</em></p>
+      <p>
+        Designed, planned and implemented all the technical components of
+        Scroll, an interactive theatre experience for smartphones. Delivered a
+        cross-platform React Native app (iOS and Android) with native features
+        like location-based tracking and push notifications. The backend for
+        managing the play was built using Drupal.
+      </p>
+      <h3 id="pt-inovação-altice-labs">PT Inovação (Altice Labs)</h3>
+      <p><em>Software Engineer, 2008 - 2009</em></p>
+      <p>
+        Built a Ruby on Rails wiki platform with a custom jQuery-based WYSIWYG
+        editor. Developed a real-time monitoring system in Java (Google Web
+        Toolkit) to support KPI analysis for large telecom companies, integrated
+        with Apache ServiceMix (SOA) and using complex Event Processing tools
+        (Apache Camel, ActiveMQ)
+      </p>
+    </div>
+    <h2 id="education">Education</h2>
+    <div id="education-contents">
+      <h3 id="faculdade-de-engenharia-da-universidade-do-porto-portugal">
+        Faculdade de Engenharia da Universidade do Porto, Portugal
+      </h3>
+      <p><em>Master in Informatics and Computing Engineering, 2003-2008</em></p>
+      <p>
+        Main topics: Software Engineering, Web Development, Algorithms and Data
+        Structures, Computer Graphics, Project Management, Software Development
+        Processes, Artificial Intelligence, Computer Networks, Operating
+        Systems, Distributed Systems, Computer Architecture, Operations
+        Research, Databases, Markup Languages, Sound and Video Editing
+      </p>
+    </div>
+    <h2 id="languages">Languages</h2>
+    <div id="languages-contents">
+      <p>
+        <strong>Portuguese</strong><br />
+        Mother tongue
+      </p>
+      <p>
+        <strong>English</strong><br />
+        Full-professional proficiency
+      </p>
+      <p>
+        <strong>French</strong><br />
+        Limited working proficiency
+      </p>
+      <p>
+        <strong>Italian</strong><br />
+        Limited working proficiency
+      </p>
+    </div>
+    <h2 id="interests">Interests</h2>
+    <div id="interests-contents">
+      <p>Food, board games, history, art, architecture</p>
+    </div>
+  </body>
 </html>
