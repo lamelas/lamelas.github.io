@@ -1,72 +1,35 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-UK" xml:lang="en-UK">
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>André Lamelas</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript">
-        if (window.location.hostname == "lamelas.su") {
-            revolution();
-        }
-
-        let cursor = 0;
-        const KONAMI_CODE = [67, 67, 67, 80];
-        document.addEventListener('keydown', (e) => {
-            cursor = (e.keyCode == KONAMI_CODE[cursor]) ? cursor + 1 : 0;
-            if (cursor == KONAMI_CODE.length) revolution();
-        });
-
-        function revolution() {
-            var link = document.createElement("link");
-            link.href = "css/cccp.css";
-            link.type = "text/css";
-            link.rel = "stylesheet";
-            link.media = "screen,print";
-
-            document.getElementsByTagName("head")[0].appendChild(link);
-
-            var audio = new Audio('https://upload.wikimedia.org/wikipedia/commons/9/9c/Gimn_Sovetskogo_Soyuza_%281944_Stalinist_lyrics%29.oga');
-            audio.play();
-            
-            document.getElementsByTagName("h1")[0].innerText = "Андрей Ламелаш";
-            document.getElementsByTagName("h2")[0].innerText = "Разработчик, Гурман, человек";
-            
-            document.getElementById("email").innerText = "Электронная почта";
-            document.getElementById("twitter").innerText = "Твиттер";
-            document.getElementById("github").innerText = "Гитхаб";
-            document.getElementById("linkedin").innerText = "Линкедин";
-            document.getElementById("instagram").innerText = "Инстаграм";
-            
-            document.getElementById("isto").innerText = "Это на Страницах Гитхаб"
-            
-        }
-
-    </script>
-</head>
-
-<body>
-    <main>
-        <header>
-            <h1>André Lamelas</h1>
-            <h2>Developer, foodie, human being</h2>
-        </header>
-        <hr />
-        <section>
-            <p><a
-                    id="email" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#110;&#100;&#114;&#101;&#64;&#108;&#97;&#109;&#101;&#108;&#97;&#115;&#46;&#111;&#114;&#103;">&#69;&#109;&#97;&#105;&#108;</a>
-            </p>
-            <p><a id="twitter" href="https://twitter.com/lamelas">Twitter</a></p>
-            <p><a id="mastodon" rel="me" href="https://mastodon.social/@lamelas">Mastodon</a></p>
-            <p><a id="github" href="https://github.com/lamelas">GitHub</a></p>
-            <p><a id="linkedin" href="https://www.linkedin.com/in/lamelas/">LinkedIn</a></p>
-            <p><a id="instagram" href="https://instagram.com/lameels">Instagram</a></p>
-        </section>
-        <section>
-            <p id="isto">isto está no github pages</p>
-        </section>
-    </main>
-</body>
-
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <header id="title-block-header">
+      <h1 class="title">André Lamelas</h1>
+      <div class="contact">
+        <p>
+          <strong><a
+            id="email"
+            href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#110;&#100;&#114;&#101;&#64;&#108;&#97;&#109;&#101;&#108;&#97;&#115;&#46;&#111;&#114;&#103;"
+            >&#97;&#110;&#100;&#114;&#101;&#64;&#108;&#97;&#109;&#101;&#108;&#97;&#115;&#46;&#111;&#114;&#103;</a
+          ></strong> |
+          <strong><a id="github" href="https://github.com/lamelas">github.com/lamelas</a></strong> |
+          <strong><a id="linkedin" href="https://www.linkedin.com/in/lamelas/">linkedin.com/in/lamelas</a></strong>
+        </p>
+        
+      </div>
+      <div class="cv">
+        <h1><a href="resume.html">MY RESUME</a></h1>
+      </div>
+    </header>
+  </body>
 </html>
