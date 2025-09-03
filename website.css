@@ -4,13 +4,35 @@
 
 :root {
     --transition-duration: 250ms;
+    --max-width: 640px;
 }
 
 body {
-  max-width: 640px !important;
+  max-width: var(--max-width) !important;
 }
 
-.contact p a {
+@media only screen and (max-width: 480px) {
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+
+  #contacts strong span {
+    display: none;
+  }
+} 
+
+#contacts {
+  margin: 1em 0;
+}
+
+#contacts strong {
+  font-size: 1.25em !important;
+}
+
+#contacts a {
   text-decoration: underline !important;
 }
 
@@ -19,8 +41,8 @@ h2 {
   padding-inline-end: 1.5em;
 }
 
-h2:hover {
-    cursor: pointer;
+h2 {
+  cursor: pointer;
 }
 
 h2::after {
