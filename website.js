@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (!content) return;
 
       const transitionDuration = content.scrollHeight/baseScroll * defaultTransitionDuration;
-      const speed = transitionDuration > 3000 ? 3000 : transitionDuration;
+      const speed = transitionDuration > 1500 ? 1500 : transitionDuration;
       
       content.classList.toggle("collapsed");
       this.classList.toggle("closed");
